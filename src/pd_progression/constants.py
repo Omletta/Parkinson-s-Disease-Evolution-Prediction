@@ -3,6 +3,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
 MODEL_DIR = ROOT / "outputs" / "models"
+MOCK_DIR = DATA_DIR / "mock_api"
 
 UPDRS_TARGETS = ["updrs_1", "updrs_2", "updrs_3", "updrs_4"]
 MEDICATION_COLUMN = "upd23b_clinical_state_on_medication"
